@@ -1,0 +1,895 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <Body>
+    <ReportItems>
+      <Image Name="Image1">
+        <Source>Embedded</Source>
+        <Value>tảixuống</Value>
+        <Sizing>FitProportional</Sizing>
+        <Height>1.21875in</Height>
+        <Width>1.52604in</Width>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Image>
+      <Textbox Name="Textbox11">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>HÓA ĐƠN</Value>
+                <Style>
+                  <FontFamily>Times New Roman</FontFamily>
+                  <FontSize>28pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox11</rd:DefaultName>
+        <Top>2.03in</Top>
+        <Left>1.86681in</Left>
+        <Height>0.5625in</Height>
+        <Width>2in</Width>
+        <ZIndex>1</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox12">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>ĐẠI HỌC QUỐC GIA TP. HỒ CHÍ MINH</Value>
+                <Style>
+                  <FontFamily>TImes New Roman</FontFamily>
+                  <FontSize>14pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
+          </Paragraph>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>KHOA ĐIỆN - ĐIỆN TỬ</Value>
+                <Style>
+                  <FontFamily>TImes New Roman</FontFamily>
+                  <FontSize>14pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
+          </Paragraph>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>BỘ MÔN KỸ THUẬT ĐIỆN TỬ</Value>
+                <Style>
+                  <FontFamily>TImes New Roman</FontFamily>
+                  <FontSize>14pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
+          </Paragraph>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value />
+                <Style>
+                  <FontFamily>TImes New Roman</FontFamily>
+                  <FontSize>14pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox12</rd:DefaultName>
+        <Top>0.10417in</Top>
+        <Left>1.59549in</Left>
+        <Height>0.92708in</Height>
+        <Width>3.82389in</Width>
+        <ZIndex>2</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox13">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>ĐỀ TÀI : QUẢN LÝ KHÁCH SẠN BẰNG HỆ THỐNG RFID KHÔNG DÂY</Value>
+                <Style>
+                  <FontFamily>Times New Roman</FontFamily>
+                  <FontSize>14pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox13</rd:DefaultName>
+        <Top>1.37153in</Top>
+        <Left>0.155in</Left>
+        <Height>0.58903in</Height>
+        <Width>5.55854in</Width>
+        <ZIndex>3</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox14">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Số hóa đơn :</Value>
+                <Style>
+                  <FontFamily>Times New Roman</FontFamily>
+                  <FontSize>14pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox14</rd:DefaultName>
+        <Top>2.83208in</Top>
+        <Left>0.155in</Left>
+        <Height>0.25in</Height>
+        <Width>1.10417in</Width>
+        <ZIndex>4</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox15">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=Fields!idhoadon.Value</Value>
+                <Style>
+                  <FontFamily>Times New Roman</FontFamily>
+                  <FontSize>14pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox14</rd:DefaultName>
+        <Top>2.83208in</Top>
+        <Left>1.32861in</Left>
+        <Height>0.25in</Height>
+        <Width>1.10417in</Width>
+        <ZIndex>5</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox16">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Khách hàng :</Value>
+                <Style>
+                  <FontFamily>Times New Roman</FontFamily>
+                  <FontSize>14pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox14</rd:DefaultName>
+        <Top>3.27604in</Top>
+        <Left>0.155in</Left>
+        <Height>0.35417in</Height>
+        <Width>1.10417in</Width>
+        <ZIndex>6</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox17">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=Fields!khachhang_hotenkh.Value</Value>
+                <Style>
+                  <FontFamily>Times New Roman</FontFamily>
+                  <FontSize>14pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox14</rd:DefaultName>
+        <Top>3.27604in</Top>
+        <Left>1.32861in</Left>
+        <Height>0.35417in</Height>
+        <Width>1.71479in</Width>
+        <ZIndex>7</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox18">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>CMND : </Value>
+                <Style>
+                  <FontFamily>Times New Roman</FontFamily>
+                  <FontSize>14pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox14</rd:DefaultName>
+        <Top>3.27604in</Top>
+        <Left>3.11285in</Left>
+        <Height>0.35417in</Height>
+        <Width>0.75396in</Width>
+        <ZIndex>8</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox19">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=Fields!khachhang_cmnd.Value</Value>
+                <Style>
+                  <FontFamily>Times New Roman</FontFamily>
+                  <FontSize>14pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox14</rd:DefaultName>
+        <Top>3.27604in</Top>
+        <Left>3.93625in</Left>
+        <Height>0.35417in</Height>
+        <Width>1.36854in</Width>
+        <ZIndex>9</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox20">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Nhân viên : </Value>
+                <Style>
+                  <FontFamily>Times New Roman</FontFamily>
+                  <FontSize>14pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox14</rd:DefaultName>
+        <Top>3.79687in</Top>
+        <Left>0.155in</Left>
+        <Height>0.35417in</Height>
+        <Width>1.10417in</Width>
+        <ZIndex>10</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox21">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=Fields!nhanvien_hotennv.Value</Value>
+                <Style>
+                  <FontFamily>Times New Roman</FontFamily>
+                  <FontSize>14pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox14</rd:DefaultName>
+        <Top>3.79687in</Top>
+        <Left>1.32861in</Left>
+        <Height>0.35417in</Height>
+        <Width>1.71479in</Width>
+        <ZIndex>11</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox22">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>MNV: </Value>
+                <Style>
+                  <FontFamily>Times New Roman</FontFamily>
+                  <FontSize>14pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox14</rd:DefaultName>
+        <Top>3.79687in</Top>
+        <Left>3.11285in</Left>
+        <Height>0.35417in</Height>
+        <Width>0.75396in</Width>
+        <ZIndex>12</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox23">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=Fields!nhanvien_manhanvien.Value</Value>
+                <Style>
+                  <FontFamily>Times New Roman</FontFamily>
+                  <FontSize>14pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox14</rd:DefaultName>
+        <Top>3.79687in</Top>
+        <Left>3.93625in</Left>
+        <Height>0.35417in</Height>
+        <Width>1.48313in</Width>
+        <ZIndex>13</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox24">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Ngày lưu trú :</Value>
+                <Style>
+                  <FontFamily>Times New Roman</FontFamily>
+                  <FontSize>14pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox14</rd:DefaultName>
+        <Top>4.49528in</Top>
+        <Left>0.155in</Left>
+        <Height>0.35417in</Height>
+        <Width>1.27604in</Width>
+        <ZIndex>14</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox25">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=Fields!ngayluutru.Value</Value>
+                <Style>
+                  <FontStyle>Italic</FontStyle>
+                  <FontFamily>Times New Roman</FontFamily>
+                  <FontSize>14pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox14</rd:DefaultName>
+        <Top>4.49528in</Top>
+        <Left>1.50048in</Left>
+        <Height>0.35417in</Height>
+        <Width>1.17188in</Width>
+        <ZIndex>15</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox26">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Ngày trả :</Value>
+                <Style>
+                  <FontFamily>Times New Roman</FontFamily>
+                  <FontSize>14pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox14</rd:DefaultName>
+        <Top>4.49528in</Top>
+        <Left>3.16194in</Left>
+        <Height>0.35417in</Height>
+        <Width>0.85937in</Width>
+        <ZIndex>16</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox27">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=Fields!ngaytra.Value</Value>
+                <Style>
+                  <FontStyle>Italic</FontStyle>
+                  <FontFamily>Times New Roman</FontFamily>
+                  <FontSize>14pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox14</rd:DefaultName>
+        <Top>4.49528in</Top>
+        <Left>4.04909in</Left>
+        <Height>0.35417in</Height>
+        <Width>1.2557in</Width>
+        <ZIndex>17</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox28">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Số ngày :</Value>
+                <Style>
+                  <FontFamily>Times New Roman</FontFamily>
+                  <FontSize>14pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox14</rd:DefaultName>
+        <Top>5.04736in</Top>
+        <Left>0.155in</Left>
+        <Height>0.35417in</Height>
+        <Width>0.85937in</Width>
+        <ZIndex>18</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox29">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=Fields!songay.Value</Value>
+                <Style>
+                  <FontStyle>Italic</FontStyle>
+                  <FontFamily>Times New Roman</FontFamily>
+                  <FontSize>14pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox14</rd:DefaultName>
+        <Top>5.04736in</Top>
+        <Left>1.08381in</Left>
+        <Height>0.35417in</Height>
+        <Width>0.85937in</Width>
+        <ZIndex>19</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox30">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Tổng cộng :</Value>
+                <Style>
+                  <FontFamily>Times New Roman</FontFamily>
+                  <FontSize>14pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox14</rd:DefaultName>
+        <Top>6.20208in</Top>
+        <Left>0.155in</Left>
+        <Height>0.35417in</Height>
+        <Width>1.10417in</Width>
+        <ZIndex>20</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox31">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=Fields!tongcong.Value</Value>
+                <Style>
+                  <FontStyle>Italic</FontStyle>
+                  <FontFamily>Times New Roman</FontFamily>
+                  <FontSize>14pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox14</rd:DefaultName>
+        <Top>6.20208in</Top>
+        <Left>1.32861in</Left>
+        <Height>0.35417in</Height>
+        <Width>0.82937in</Width>
+        <ZIndex>21</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Line Name="Line1">
+        <Top>5.92583in</Top>
+        <Left>0.155in</Left>
+        <Height>0in</Height>
+        <Width>5.14979in</Width>
+        <ZIndex>22</ZIndex>
+        <Style>
+          <Border>
+            <Style>Solid</Style>
+          </Border>
+        </Style>
+      </Line>
+      <Line Name="Line2">
+        <Top>4.35833in</Top>
+        <Left>0.155in</Left>
+        <Height>0in</Height>
+        <Width>5.14979in</Width>
+        <ZIndex>23</ZIndex>
+        <Style>
+          <Border>
+            <Style>Solid</Style>
+          </Border>
+        </Style>
+      </Line>
+    </ReportItems>
+    <Height>8.3in</Height>
+    <Style>
+      <Border>
+        <Style>Solid</Style>
+      </Border>
+    </Style>
+  </Body>
+  <Width>5.8in</Width>
+  <Page>
+    <LeftMargin>1in</LeftMargin>
+    <RightMargin>1in</RightMargin>
+    <TopMargin>1in</TopMargin>
+    <BottomMargin>1in</BottomMargin>
+    <Style />
+  </Page>
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="DataSet1">
+      <ConnectionProperties>
+        <DataProvider>System.Data.DataSet</DataProvider>
+        <ConnectString>/* Local Connection */</ConnectString>
+      </ConnectionProperties>
+      <rd:DataSourceID>b247a5d8-f9db-45e1-9ccc-8bc420cd90d0</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="DataSet1">
+      <Query>
+        <DataSourceName>DataSet1</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="idhoadon">
+          <DataField>idhoadon</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="khachhang_hotenkh">
+          <DataField>khachhang_hotenkh</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="khachhang_cmnd">
+          <DataField>khachhang_cmnd</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="nhanvien_hotennv">
+          <DataField>nhanvien_hotennv</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="nhanvien_manhanvien">
+          <DataField>nhanvien_manhanvien</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="phong_idphong">
+          <DataField>phong_idphong</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="ngayluutru">
+          <DataField>ngayluutru</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="ngaytra">
+          <DataField>ngaytra</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="songay">
+          <DataField>songay</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="dichvu">
+          <DataField>dichvu</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="tongcong">
+          <DataField>tongcong</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+      </Fields>
+      <rd:DataSetInfo>
+        <rd:DataSetName>DataSet1</rd:DataSetName>
+        <rd:SchemaPath>C:\Users\Van Thinh\documents\visual studio 2013\Projects\LVTN_V2\LVTN_V2\DataSet1.xsd</rd:SchemaPath>
+        <rd:TableName>DataTable</rd:TableName>
+        <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
+        <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
+        <rd:TableAdapterName>DataTableTableAdapter</rd:TableAdapterName>
+      </rd:DataSetInfo>
+    </DataSet>
+  </DataSets>
+  <EmbeddedImages>
+    <EmbeddedImage Name="tảixuống">
+      <MIMEType>image/jpeg</MIMEType>
+      <ImageData>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</ImageData>
+    </EmbeddedImage>
+  </EmbeddedImages>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportID>f0699420-3f50-4c79-bf11-cb778b8406f2</rd:ReportID>
+</Report>
